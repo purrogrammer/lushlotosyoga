@@ -747,7 +747,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .insta-imgs {
 	display: block;
-	margin: 0 -5px 80px;
+	margin: 0 -5px 30px;
 	padding-top: 20px;
 	overflow: hidden;
 }
