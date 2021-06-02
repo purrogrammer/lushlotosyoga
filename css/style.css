@@ -154,6 +154,7 @@ ol {
 .site-pagination a.active,
 .site-pagination a:hover,
 .page-top-section:after,
+/* .page-top-section-2:after, */
 .review-section:after,
 .search-model:after,
 .hero-section,
@@ -193,6 +194,7 @@ Various elements
 	cursor: pointer;
 	text-align: center;
 	letter-spacing: 1px;
+	/* align-items: center; */
 }
 
 .site-btn:hover {
@@ -2337,7 +2339,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-size: 20px;
 	margin-bottom: 30px;
 	padding-top: 10px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+	font-family: ff-avance-pro, serif;
+	font-weight: 600;
 }
 
 .footer-widget ul {
@@ -2464,6 +2468,51 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-size: 18px;
 }
 
+
+
+/* ### NEW page top #### */
+
+.page-top-section-2 {
+	height: 500px;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #fef8ff;
+	/* align-items: center; */
+}
+
+.page-top-section-2.page-sp {
+	padding-top: 100px;
+}
+
+.page-top-section-2:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	/* opacity: 0.92; */
+	/* filter: alpha(opacity=92); */
+}
+
+.page-top-section-2 .container .row {
+	position: relative;
+	z-index: 9;
+	background-color: #fef8ff;
+}
+
+.page-top-section-2 h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.page-top-section-2 p {
+	font-size: 18px;
+}
+
 /*--------------
   About Page
 -----------------*/
@@ -2473,7 +2522,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .wwd-section {
-	background-color: #f9f2f0;
+	/* background-color: #f9f2f0; */
+	background-color: #fef8ff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -2486,6 +2536,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .wwd-text {
 	padding-left: 100px;
+	background-color:#fef8ff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
